@@ -1,0 +1,653 @@
+[
+    {
+        "PALETA": "ADIDAS MATCH Black 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "255950",
+        "PRECIO_VENTA_TRANSFERENCIA": "209795",
+        "IMG": "https://acdn-us.mitiendanube.com/stores/001/408/700/products/paleta-adidas-match-black-3-4-2025-0c9fdae48faf5a6ebe17398926268852-1024-1024.webp"
+    },
+    {
+        "PALETA": "ADIDAS DRIVE Grey 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "266443",
+        "PRECIO_VENTA_TRANSFERENCIA": "218396",
+        "IMG": "https://allforpadel.com/6708-thickbox_default/pala-adidas-drive-grey-34.jpg"
+    },
+    {
+        "PALETA": "ADIDAS DRIVE Black 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "266443",
+        "PRECIO_VENTA_TRANSFERENCIA": "218396",
+        "IMG": "https://www.adidaspadelargentina.com/wp-content/uploads/2024/12/Match_black_3.4_AR5GA0-FRONT.jpg"
+    },
+    {
+        "PALETA": "ADIDAS KRM260 CTRL 2022 (PALA)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "308413",
+        "PRECIO_VENTA_TRANSFERENCIA": "252797",
+        "IMG": "https://padelmarket.com/cdn/shop/files/8229.jpg?v=1725948740"
+    },
+    {
+        "PALETA": "ADIDAS METALBONE Team Light 2024 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "318905",
+        "PRECIO_VENTA_TRANSFERENCIA": "261398",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS RX Series Red 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "307292",
+        "PRECIO_VENTA_TRANSFERENCIA": "251878",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS RX Series Lime 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "307292",
+        "PRECIO_VENTA_TRANSFERENCIA": "251878",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS ADIPOWER CTRL 3.3 2024 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "338769",
+        "PRECIO_VENTA_TRANSFERENCIA": "277679",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS CROSS IT Team 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "405921",
+        "PRECIO_VENTA_TRANSFERENCIA": "332722",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE Carbon 3.3 2024 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "424807",
+        "PRECIO_VENTA_TRANSFERENCIA": "348203",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE Team Light 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "437398",
+        "PRECIO_VENTA_TRANSFERENCIA": "358523",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE Team 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "437398",
+        "PRECIO_VENTA_TRANSFERENCIA": "358523",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS ADIPOWER A1 PADEL 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "459245",
+        "PRECIO_VENTA_TRANSFERENCIA": "376431",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE 09 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "459245",
+        "PRECIO_VENTA_TRANSFERENCIA": "376431",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE 3.3 2024 ALE GALAN (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "469261",
+        "PRECIO_VENTA_TRANSFERENCIA": "384640",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE HRD+ 2024 ALE GALAN (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "486468",
+        "PRECIO_VENTA_TRANSFERENCIA": "398745",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE Carbon 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "503676",
+        "PRECIO_VENTA_TRANSFERENCIA": "412849",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE Carbon Ctrl 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "503676",
+        "PRECIO_VENTA_TRANSFERENCIA": "412849",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS ADIPOWER Control Multiweight PRO EDT 2024 ALEX RUIZ (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "513236",
+        "PRECIO_VENTA_TRANSFERENCIA": "420685",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS ADIPOWER Carbon Light 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "520884",
+        "PRECIO_VENTA_TRANSFERENCIA": "426954",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS ADIPOWER Carbon Ctrl 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "520884",
+        "PRECIO_VENTA_TRANSFERENCIA": "426954",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS CROSS IT Carbon Ctrl 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "540003",
+        "PRECIO_VENTA_TRANSFERENCIA": "442626",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS CROSS IT 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "662369",
+        "PRECIO_VENTA_TRANSFERENCIA": "542925",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS CROSS IT Ctrl 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "662369",
+        "PRECIO_VENTA_TRANSFERENCIA": "542925",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE HRD+ 3.4 2025 ALE GALAN (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "733111",
+        "PRECIO_VENTA_TRANSFERENCIA": "600911",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE 3.4 2025 ALE GALAN (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "733111",
+        "PRECIO_VENTA_TRANSFERENCIA": "600911",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS METALBONE Ctrl 3.4 2025 (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "733111",
+        "PRECIO_VENTA_TRANSFERENCIA": "600911",
+        "IMG": ""
+    },
+    {
+        "PALETA": "ADIDAS ADIPOWER Multiweight Ctrl 3.4 2025 ALEX RUIZ (Pala)",
+        "MARCA": "ADIDAS",
+        "PRECIO_VENTA": "750319",
+        "PRECIO_VENTA_TRANSFERENCIA": "615015",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL HACK 02 Performance 2024 (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "293723",
+        "PRECIO_VENTA_TRANSFERENCIA": "240757",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL IONIC Power 22 JAVI LEAL (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "297920",
+        "PRECIO_VENTA_TRANSFERENCIA": "244197",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL HACK 03 Comfort 2023 (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "331496",
+        "PRECIO_VENTA_TRANSFERENCIA": "271718",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL IONIC Power 2024 PABLO CARDONA (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "335693",
+        "PRECIO_VENTA_TRANSFERENCIA": "275158",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL IONIC Control 2024 (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "324079",
+        "PRECIO_VENTA_TRANSFERENCIA": "265639",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL VERTEX 03 Comfort 2023 DI NENNO (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "332473",
+        "PRECIO_VENTA_TRANSFERENCIA": "272519",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL VERTEX 04 Comfort 2024 DI NENNO (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "338769",
+        "PRECIO_VENTA_TRANSFERENCIA": "277679",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL HACK 03 Comfort 2024 (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "342966",
+        "PRECIO_VENTA_TRANSFERENCIA": "281120",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL NEURON 2024 CHINGOTTO (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "351360",
+        "PRECIO_VENTA_TRANSFERENCIA": "288000",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL VERTEX 02 X Rojo 2023 (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "372345",
+        "PRECIO_VENTA_TRANSFERENCIA": "305201",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL HACK 03 2024 PAQUITO NAVARRO (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "445792",
+        "PRECIO_VENTA_TRANSFERENCIA": "365403",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL NEURON PREMIER PADEL 2025 FEDE CHINGOTTO (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "541915",
+        "PRECIO_VENTA_TRANSFERENCIA": "444193",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL XPLO PREMIER PADEL 2025 DI NENNO (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "568683",
+        "PRECIO_VENTA_TRANSFERENCIA": "466133",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL VERTEX 04 Tour Final 2024 JUAN TELLO (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "572507",
+        "PRECIO_VENTA_TRANSFERENCIA": "469268",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL XPLO Tour Final 2024 DI NENNO (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "572507",
+        "PRECIO_VENTA_TRANSFERENCIA": "469268",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL NEURON Tour Final 2024 FEDE CHINGOTTO (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "572507",
+        "PRECIO_VENTA_TRANSFERENCIA": "469268",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL HACK 04 Tour Final 2024 PAQUITO NAVARRO (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "572507",
+        "PRECIO_VENTA_TRANSFERENCIA": "469268",
+        "IMG": ""
+    },
+    {
+        "PALETA": "BULLPADEL VERTEX 04 Mexico 2024 (Pala)",
+        "MARCA": "BULLPADEL",
+        "PRECIO_VENTA": "574418",
+        "PRECIO_VENTA_TRANSFERENCIA": "470835",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT RENEGADE LITE Control 2025 (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "314708",
+        "PRECIO_VENTA_TRANSFERENCIA": "257957",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT EXPLORER 8.0 2025 (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "422709",
+        "PRECIO_VENTA_TRANSFERENCIA": "346482",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT CANYON PRO Comfort 1.0 2025 PABLO LIMA (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "433201",
+        "PRECIO_VENTA_TRANSFERENCIA": "355083",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT CONQUEROR Comfort 1.0 2025 (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "433201",
+        "PRECIO_VENTA_TRANSFERENCIA": "355083",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT EXPLORER PRO Comfort 1.0 2025 (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "433201",
+        "PRECIO_VENTA_TRANSFERENCIA": "355083",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT AXION Comfort 2025 JON SANZ (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "452087",
+        "PRECIO_VENTA_TRANSFERENCIA": "370564",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT EXPLORER PRO Control 1.0 2025 LUCAS CAMPAGNOLO (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "468875",
+        "PRECIO_VENTA_TRANSFERENCIA": "384324",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT CANYON PRO Control 1.0 2025 PABLO LIMA (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "468875",
+        "PRECIO_VENTA_TRANSFERENCIA": "384324",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT CONQUEROR Control 1.0 2025 (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "468875",
+        "PRECIO_VENTA_TRANSFERENCIA": "384324",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT AXION Control 1.0 2025 JON SANZ (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "466893",
+        "PRECIO_VENTA_TRANSFERENCIA": "382699",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT QUANTUM 2.0 2025 (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "490292",
+        "PRECIO_VENTA_TRANSFERENCIA": "401879",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT X-DRIVE 2.0 2025 (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "490292",
+        "PRECIO_VENTA_TRANSFERENCIA": "401879",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT FURIA Attack 1.0 2025 (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "490292",
+        "PRECIO_VENTA_TRANSFERENCIA": "401879",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT FURIA Control 1.0 2025 (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "490292",
+        "PRECIO_VENTA_TRANSFERENCIA": "401879",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT CANYON PRO Atttack 1.0 2025 PABLO LIMA (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "585890",
+        "PRECIO_VENTA_TRANSFERENCIA": "480238",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT EXPLORER PRO Attack 1.0 2025 LUCAS CAMPAGNOLO (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "585890",
+        "PRECIO_VENTA_TRANSFERENCIA": "480238",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT AXION Attack 1.0 2025 JON SANZ (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "601186",
+        "PRECIO_VENTA_TRANSFERENCIA": "492775",
+        "IMG": ""
+    },
+    {
+        "PALETA": "DROP SHOT CONQUEROR Attack 1.0 2025 (Pala)",
+        "MARCA": "DROPSHOT",
+        "PRECIO_VENTA": "601186",
+        "PRECIO_VENTA_TRANSFERENCIA": "492775",
+        "IMG": ""
+    },
+    {
+        "PALETA": "KOMBAT GALERAS 2025 by MANU MARTIN (Pala)",
+        "MARCA": "KOMBAT",
+        "PRECIO_VENTA": "408019",
+        "PRECIO_VENTA_TRANSFERENCIA": "334442",
+        "IMG": ""
+    },
+    {
+        "PALETA": "KOMBAT KRAKATOA 2025 by MANU MARTIN (Pala)",
+        "MARCA": "KOMBAT",
+        "PRECIO_VENTA": "408019",
+        "PRECIO_VENTA_TRANSFERENCIA": "334442",
+        "IMG": ""
+    },
+    {
+        "PALETA": "KOMBAT OSORNO 2025 by MANU MARTIN (Pala)",
+        "MARCA": "KOMBAT",
+        "PRECIO_VENTA": "408019",
+        "PRECIO_VENTA_TRANSFERENCIA": "334442",
+        "IMG": ""
+    },
+    {
+        "PALETA": "KOMBAT ARENAL 2025 by MANU MARTIN (Pala)",
+        "MARCA": "KOMBAT",
+        "PRECIO_VENTA": "414315",
+        "PRECIO_VENTA_TRANSFERENCIA": "339602",
+        "IMG": ""
+    },
+    {
+        "PALETA": "KOMBAT VESUBIO by MANU MARTIN 2025 (Pala)",
+        "MARCA": "KOMBAT",
+        "PRECIO_VENTA": "420610",
+        "PRECIO_VENTA_TRANSFERENCIA": "344762",
+        "IMG": ""
+    },
+    {
+        "PALETA": "KOMBAT ETNA 2025 by MANU MARTIN (Pala)",
+        "MARCA": "KOMBAT",
+        "PRECIO_VENTA": "426906",
+        "PRECIO_VENTA_TRANSFERENCIA": "349923",
+        "IMG": ""
+    },
+    {
+        "PALETA": "KOMBAT FUJI 2025 by MANU MARTIN (Pala)",
+        "MARCA": "KOMBAT",
+        "PRECIO_VENTA": "464981",
+        "PRECIO_VENTA_TRANSFERENCIA": "381132",
+        "IMG": ""
+    },
+    {
+        "PALETA": "KOMBAT TEIDE 2025 by MANU MARTIN (Pala)",
+        "MARCA": "KOMBAT",
+        "PRECIO_VENTA": "464981",
+        "PRECIO_VENTA_TRANSFERENCIA": "381132",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX X-ONE EVO RED 2023 (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "304216",
+        "PRECIO_VENTA_TRANSFERENCIA": "249357",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX EQUATION LIGHT W Advanced Series 2025 (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "332473",
+        "PRECIO_VENTA_TRANSFERENCIA": "272519",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX EQUATION Advanced Series 2025 (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "332473",
+        "PRECIO_VENTA_TRANSFERENCIA": "272519",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX ML10 PRO CUP Coorp. 2025 MIGUEL LAMPERTI (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "353458",
+        "PRECIO_VENTA_TRANSFERENCIA": "289720",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX ML10 PRO CUP Rough Surface Edition 2025 MIGUEL LAMPERTI (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "353458",
+        "PRECIO_VENTA_TRANSFERENCIA": "289720",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX AT10 PRO CUP Hard 2025 by AGUSTIN TAPIA (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "395428",
+        "PRECIO_VENTA_TRANSFERENCIA": "324121",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX AT10 PRO CUP Comfort 2025 by AGUSTIN TAPIA (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "395428",
+        "PRECIO_VENTA_TRANSFERENCIA": "324121",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX AT GENIUS Attack 18K 2024 AGUSTIN TAPIA (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "403822",
+        "PRECIO_VENTA_TRANSFERENCIA": "331002",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX AT10 GENIUS 18K 2024 AGUSTIN TAPIA (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "435300",
+        "PRECIO_VENTA_TRANSFERENCIA": "356803",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX NEXTGEN PRO Attack 3K NFA Series 2025 (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "437398",
+        "PRECIO_VENTA_TRANSFERENCIA": "358523",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX NEXTGEN PRO Hybrid 3K NFA Series 2025 (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "437398",
+        "PRECIO_VENTA_TRANSFERENCIA": "358523",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX FUTURE Control 12K Alum NFA Series 2025 (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "520884",
+        "PRECIO_VENTA_TRANSFERENCIA": "426954",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX FUTURE Hybrid 12K Alum NFA Series 2025 (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "520884",
+        "PRECIO_VENTA_TRANSFERENCIA": "426954",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX FUTURE Attack 12K Alum NFA Series 2025 (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "520884",
+        "PRECIO_VENTA_TRANSFERENCIA": "426954",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX QUANTUM Cobalt 12K 2025 (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "645161",
+        "PRECIO_VENTA_TRANSFERENCIA": "528820",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX QUANTUM Carbon 12K 2025 (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "645161",
+        "PRECIO_VENTA_TRANSFERENCIA": "528820",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX ML10 QUANTUM 3K 2025 by MIGUEL LAMPERTI (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "645161",
+        "PRECIO_VENTA_TRANSFERENCIA": "528820",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX AT10 GENIUS Attack 12K 2025 by AGUSTIN TAPIA (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "645161",
+        "PRECIO_VENTA_TRANSFERENCIA": "528820",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX AT10 GENIUS Attack 18K Alum 2025 by AGUSTIN TAPIA (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "645161",
+        "PRECIO_VENTA_TRANSFERENCIA": "528820",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX AT10 GENIUS 12K 2025 by AGUSTIN TAPIA (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "645161",
+        "PRECIO_VENTA_TRANSFERENCIA": "528820",
+        "IMG": ""
+    },
+    {
+        "PALETA": "NOX AT10 GENIUS 18K Alum 2025 by AGUSTIN TAPIA (Pala)",
+        "MARCA": "NOX",
+        "PRECIO_VENTA": "679576",
+        "PRECIO_VENTA_TRANSFERENCIA": "557030",
+        "IMG": ""
+    }
+]
