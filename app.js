@@ -30,13 +30,17 @@ document.addEventListener('DOMContentLoaded', async () => {
             
             const precioMin = parseFloat(document.getElementById('precioMin').value) || 0;
             const precioMax = parseFloat(document.getElementById('precioMax').value) || Infinity;
+            const searchTerm = document.getElementById('searchInput').value.toLowerCase().trim();
 
             productosFiltrados = productos.filter(producto => {
                 const precio = parseFloat(producto.PRECIO_VENTA);
                 const cumplePrecio = precio >= precioMin && (precioMax === 0 || precio <= precioMax);
                 const cumpleMarca = marcasSeleccionadas.length === 0 || marcasSeleccionadas.includes(producto.MARCA);
+                const cumpleBusqueda = searchTerm === '' || 
+                    producto.PALETA.toLowerCase().includes(searchTerm) ||
+                    producto.MARCA.toLowerCase().includes(searchTerm);
                 
-                return cumplePrecio && cumpleMarca;
+                return cumplePrecio && cumpleMarca && cumpleBusqueda;
             });
 
             paginaActual = 1; // Resetear a la primera página
@@ -142,6 +146,9 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         document.getElementById('precioMin').addEventListener('input', filtrarProductos);
         document.getElementById('precioMax').addEventListener('input', filtrarProductos);
+
+        // Agregar evento para el campo de búsqueda
+        document.getElementById('searchInput').addEventListener('input', filtrarProductos);
 
         // Mostrar productos iniciales
         mostrarProductos();
