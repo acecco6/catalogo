@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', function() {
         modalNombre.textContent = producto.PALETA;
         modalMarca.textContent = producto.MARCA;
         modalPrecio.innerHTML = `$ ${parseInt(producto.PRECIO_VENTA).toLocaleString()}`;
-        modalPrecioTransferencia.innerHTML = `<i class="fas fa-percentage"></i> $ ${parseInt(producto.PRECIO_VENTA_TRANSFERENCIA).toLocaleString()} con transferencia`;
+        modalPrecioTransferencia.innerHTML = `$ ${parseInt(producto.PRECIO_VENTA_TRANSFERENCIA).toLocaleString()} con transferencia`;
         modalCuotas.innerHTML = `<i class="fas fa-credit-card"></i> 3 cuotas sin interés de $ ${calcularCuotas(producto.PRECIO_VENTA)}`;
         
         // Mostrar el modal
