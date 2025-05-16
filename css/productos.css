@@ -1,0 +1,355 @@
+body {
+    background-color: #1a1a1a;
+    font-family: 'Poppins', sans-serif;
+}
+
+.productos-container {
+    padding: 20px 0;
+}
+
+/* Estilos de la tarjeta de producto */
+.producto-card {
+    position: relative;
+    background-color: #2a2a2a;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 100%;
+    transition: all 0.4s ease;
+    border: 1px solid #3a3a3a;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.producto-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 20px rgba(74, 144, 226, 0.5);
+    border-color: rgba(74, 144, 226, 0.5);
+}
+
+/* Estilos para la imagen del producto */
+.producto-imagen {
+    background-color: white;
+    padding: 20px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.producto-imagen img {
+    max-height: 100%;
+    width: auto;
+    object-fit: contain;
+    transition: transform 0.4s ease;
+}
+
+.producto-card:hover .producto-imagen img {
+    transform: scale(1.05);
+}
+
+/* Estilos para la insignia de marca */
+.marca-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: #4a90e2;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    z-index: 10;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.producto-card:hover .marca-badge {
+    background: linear-gradient(45deg, #0a3d91, #1e88e5);
+    box-shadow: 0 4px 12px rgba(30, 136, 229, 0.4);
+    transform: translateY(-2px);
+}
+
+/* Estilos para la información del producto */
+.producto-info {
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+    transition: all 0.3s ease;
+}
+
+.producto-card:hover .producto-info {
+    background: linear-gradient(to bottom, rgba(42, 42, 42, 0.9), #2a2a2a);
+}
+
+.producto-marca {
+    color: #4a90e2;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+}
+
+.producto-nombre {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.producto-precio {
+    font-size: 22px;
+    color: #28a745;
+    font-weight: 700;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.producto-card:hover .producto-precio {
+    color: #2ecc71;
+}
+
+.producto-precio-transferencia {
+    color: #4a90e2;
+    font-size: 14px;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+}
+
+.producto-card:hover .producto-precio-transferencia {
+    color: #5a9de2;
+}
+
+.producto-cuotas {
+    color: #ffc107;
+    font-size: 13px;
+    transition: color 0.3s ease;
+}
+
+.producto-card:hover .producto-cuotas {
+    color: #ffd54f;
+}
+
+/* Logo flotante */
+.floating-logo {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+.floating-logo img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+}
+
+/* Contenedor principal de productos */
+main.container {
+    max-width: 1200px;
+    padding: 0 15px;
+}
+
+/* Ajuste para que coincida con el ancho de los filtros pero sin el estilo de fondo */
+#productos-container {
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+/* Ajuste para el padding del contenedor principal */
+main.container.py-4 {
+    padding-top: 0 !important;
+}
+
+/* Estilo para el botón "Cargar más" */
+.btn-cargar-mas {
+    background: linear-gradient(45deg, #0a3d91, #1e88e5);
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 25px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(30, 136, 229, 0.3);
+    margin: 20px auto 40px;
+}
+
+.btn-cargar-mas:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(30, 136, 229, 0.4);
+}
+
+.btn-cargar-mas i {
+    transition: transform 0.3s ease;
+}
+
+.btn-cargar-mas:hover i {
+    transform: translateY(3px);
+}
+
+/* Animaciones para los productos */
+#productos-container .row > div {
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+
+/* Animación para productos que se filtran */
+.producto-animado-entrada {
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+.producto-animado-salida {
+    animation: fadeOutDown 0.3s ease forwards;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeOutDown {
+    from {
+        opacity: 1;
+        transform: translateY(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+}
+
+/* Estilo para el contenedor durante la transición */
+.productos-transicion {
+    position: relative;
+    min-height: 200px;
+}
+
+/* Indicador de carga durante el filtrado */
+.filtro-cargando {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #4a90e2;
+    font-size: 24px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1;
+}
+
+.filtro-cargando.activo {
+    opacity: 1;
+    z-index: 10;
+}
+
+/* Ajustes responsive mejorados */
+@media (max-width: 992px) {
+    .producto-card {
+        margin-bottom: 20px;
+    }
+    
+    .producto-imagen {
+        height: 280px;
+    }
+    
+    .producto-nombre {
+        font-size: 15px;
+    }
+    
+    .producto-precio {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .producto-card {
+        margin-bottom: 15px;
+    }
+
+    .producto-imagen {
+        height: 220px;
+    }
+    
+    .producto-info {
+        padding: 15px;
+    }
+    
+    .producto-nombre {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    
+    .producto-precio {
+        font-size: 18px;
+    }
+    
+    .producto-precio-transferencia {
+        font-size: 13px;
+    }
+    
+    .floating-logo img {
+        width: 65px;
+        height: 65px;
+    }
+    
+    .btn-cargar-mas {
+        padding: 10px 20px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (max-width: 576px) {
+    #productos-container > div {
+        padding: 0 8px;
+    }
+    
+    .producto-imagen {
+        height: 180px;
+        padding: 15px;
+    }
+    
+    .producto-info {
+        padding: 12px;
+    }
+    
+    .producto-nombre {
+        font-size: 13px;
+        margin-bottom: 8px;
+    }
+    
+    .producto-precio {
+        font-size: 16px;
+        margin-bottom: 5px;
+    }
+    
+    .producto-precio-transferencia {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+    
+    .marca-badge {
+        font-size: 10px;
+        padding: 4px 10px;
+        top: 10px;
+        right: 10px;
+    }
+    
+    .floating-logo {
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    .floating-logo img {
+        width: 65px;
+        height: 65px;
+    }
+}
