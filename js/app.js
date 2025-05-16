@@ -42,7 +42,7 @@ function mostrarProductos() {
             <div class="col-12 col-md-6 col-lg-3 producto-item" 
                  data-marca="${producto.MARCA}" 
                  data-precio="${producto.PRECIO_VENTA_TRANSFERENCIA}">
-                <div class="producto-card">
+                <div class="producto-card" data-producto-index="${productos.indexOf(producto)}">
                     <div class="producto-imagen">
                         <span class="marca-badge">${producto.MARCA}</span>
                         <img src="${producto.IMG}" alt="${producto.PALETA}">
@@ -62,8 +62,52 @@ function mostrarProductos() {
         contenedor.innerHTML += cardHTML;
     });
     
+    // Agregar eventos de clic a las tarjetas de productos
+    document.querySelectorAll('.producto-card').forEach(card => {
+        card.addEventListener('click', function() {
+            const productoIndex = this.getAttribute('data-producto-index');
+            abrirModal(productos[productoIndex]);
+        });
+    });
+    
     // Mostrar u ocultar el botón "Cargar más" según corresponda
     mostrarBotonCargarMas();
+}
+
+// Función para abrir el modal con los detalles del producto
+function abrirModal(producto) {
+    // Obtener elementos del modal
+    const modal = document.getElementById('producto-modal');
+    const modalImg = document.getElementById('modal-img');
+    const modalNombre = document.getElementById('modal-nombre');
+    const modalMarca = document.getElementById('modal-marca');
+    const modalPrecio = document.getElementById('modal-precio');
+    const modalPrecioTransferencia = document.getElementById('modal-precio-transferencia');
+    const modalCuotas = document.getElementById('modal-cuotas');
+    
+    // Llenar el modal con los datos del producto
+    modalImg.src = producto.IMG;
+    modalImg.alt = producto.PALETA;
+    modalNombre.textContent = producto.PALETA;
+    modalMarca.textContent = producto.MARCA;
+    modalPrecio.innerHTML = `$ ${parseInt(producto.PRECIO_VENTA).toLocaleString()}`;
+    modalPrecioTransferencia.innerHTML = `<i class="fas fa-percentage"></i> $ ${parseInt(producto.PRECIO_VENTA_TRANSFERENCIA).toLocaleString()} con transferencia`;
+    modalCuotas.innerHTML = `<i class="fas fa-credit-card"></i> 3 cuotas sin interés de $ ${calcularCuotas(producto.PRECIO_VENTA)}`;
+    
+    // Mostrar el modal
+    modal.classList.add('activo');
+    
+    // Bloquear el scroll del body
+    document.body.style.overflow = 'hidden';
+}
+
+// Función para cerrar el modal
+function cerrarModal() {
+    const modal = document.getElementById('producto-modal');
+    modal.classList.remove('activo');
+    
+    // Restaurar el scroll del body
+    document.body.style.overflow = 'auto';
 }
 
 // Función para mostrar u ocultar el botón "Cargar más"
@@ -172,4 +216,27 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     }
+    
+    // Configurar el evento para cerrar el modal
+    const cerrarModalBtn = document.querySelector('.cerrar-modal');
+    if (cerrarModalBtn) {
+        cerrarModalBtn.addEventListener('click', cerrarModal);
+    }
+    
+    // Cerrar el modal al hacer clic fuera del contenido
+    const modal = document.getElementById('producto-modal');
+    if (modal) {
+        modal.addEventListener('click', function(event) {
+            if (event.target === this) {
+                cerrarModal();
+            }
+        });
+    }
+    
+    // Cerrar el modal con la tecla Escape
+    document.addEventListener('keydown', function(event) {
+        if (event.key === 'Escape' && modal.classList.contains('activo')) {
+            cerrarModal();
+        }
+    });
 });
