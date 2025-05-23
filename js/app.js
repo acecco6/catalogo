@@ -38,18 +38,27 @@ function mostrarProductos() {
     
     // Mostrar los productos
     productosAMostrar.forEach(producto => {
+        // Verificar si tiene descuento
+        const tieneDescuento = producto.DESCUENTO && producto.DESCUENTO !== "0%";
+        
         const cardHTML = `
-            <div class="col-12 col-md-6 col-lg-3 producto-item" 
+            <div class="col-6 col-md-6 col-lg-3 producto-item" 
                  data-marca="${producto.MARCA}" 
                  data-precio="${producto.PRECIO_VENTA_TRANSFERENCIA}">
                 <div class="producto-card" data-producto-index="${productos.indexOf(producto)}">
                     <div class="producto-imagen">
                         <span class="marca-badge">${producto.MARCA}</span>
+                        ${tieneDescuento ? `<span class="descuento-badge">${producto.DESCUENTO} OFF</span>` : ''}
                         <img src="${producto.IMG}" alt="${producto.PALETA}">
                     </div>
                     <div class="producto-info">
                         <h5 class="producto-nombre">${producto.PALETA}</h5>
-                        <div class="producto-precio">$ ${parseInt(producto.PRECIO_VENTA).toLocaleString()}</div>
+                        <div class="producto-precio">
+                            ${tieneDescuento ? 
+                                `<span class="precio-original">$ ${parseInt(parseInt(producto.PRECIO_VENTA) * 1.1).toLocaleString()}</span>
+                                 <span>$ ${parseInt(producto.PRECIO_VENTA).toLocaleString()}</span>` 
+                                : `$ ${parseInt(producto.PRECIO_VENTA).toLocaleString()}`}
+                        </div>
                         <div class="producto-precio-transferencia">$ ${parseInt(producto.PRECIO_VENTA_TRANSFERENCIA).toLocaleString()} con transferencia</div>
                         <div class="producto-cuotas">
                             <i class="fas fa-credit-card"></i> 

@@ -17,12 +17,26 @@ document.addEventListener('DOMContentLoaded', function() {
         const modalPrecioTransferencia = document.getElementById('modal-precio-transferencia');
         const modalCuotas = document.getElementById('modal-cuotas');
         
+        // Verificar si tiene descuento
+        const tieneDescuento = producto.DESCUENTO && producto.DESCUENTO !== "0%";
+        
         // Llenar el modal con los datos del producto
         modalImg.src = producto.IMG;
         modalImg.alt = producto.PALETA;
         modalNombre.textContent = producto.PALETA;
         modalMarca.textContent = producto.MARCA;
-        modalPrecio.innerHTML = `$ ${parseInt(producto.PRECIO_VENTA).toLocaleString()}`;
+        
+        // Mostrar precio con descuento si corresponde
+        if (tieneDescuento) {
+            modalPrecio.innerHTML = `
+                <span class="precio-original-modal">$ ${parseInt(parseInt(producto.PRECIO_VENTA) * 1.1).toLocaleString()}</span>
+                <span>$ ${parseInt(producto.PRECIO_VENTA).toLocaleString()}</span>
+                <span class="descuento-texto-modal">${producto.DESCUENTO} OFF</span>
+            `;
+        } else {
+            modalPrecio.innerHTML = `$ ${parseInt(producto.PRECIO_VENTA).toLocaleString()}`;
+        }
+        
         modalPrecioTransferencia.innerHTML = `$ ${parseInt(producto.PRECIO_VENTA_TRANSFERENCIA).toLocaleString()} con transferencia`;
         modalCuotas.innerHTML = `<i class="fas fa-credit-card"></i> 3 cuotas sin interés de $ ${calcularCuotas(producto.PRECIO_VENTA)}`;
         
